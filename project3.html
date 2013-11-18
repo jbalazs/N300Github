@@ -9,21 +9,17 @@
         href = "css/layout.css" />
 	<script type = "text/javascript">
 	
-	int temp;  /* initializing variable temp for user input of temperature in Fahrenheit */
-
-	int celSius;  /* initializing variable celSius */
-
-
-	printf( "Enter an integer for the temperature in Fahrenheit. " );  /* prompting user for input of integer */
-	scanf( "%d" , &temp );  /* reading input of integer and assigning it to variable temp */
-
-	celSius = (float)((temp - 32) *  5/9);  /* assigning value of celSius and type casing it to a float */
-
-	printf( "The Celsius temperature is %.2f\n" , celSius );  /* first output statement */
-	printf( "The Celsius temperature truncated is %d\n" , celSius );  /* second output statement */
-	printf( "The Celsius temperature rounded is %hd\n" , celSius );  /* third output statement */
-
-	return 0;  /* indicates successful termination */
+	function convertTemp(){
+	
+		var F = prompt("Enter the temperature in Fahrenheit."); //getting temperature from user
+		
+		var C = ((F - 32) *  5/9); //converting from Fahrenheit to Celsius
+		
+		alert("The temperature in Celsius is  " + C + "  degrees.");
+	
+	} //end function
+	
+	
 		
 	
 	
@@ -34,5 +30,18 @@
 </head>
 
 <body>
+
+<h1>Simple Temperature Conversion Program</h1>
+
+  <form action = "">
+    <fieldset>
+      <button type = "button"
+              onclick = "convertTemp()">
+        getTemperature
+      </button>
+      
+    </fieldset>
+  </form>
+
 </body>
 </html>
