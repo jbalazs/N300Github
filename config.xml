@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "com.alunny.amazing"
+	id		= "Simple Temperature Conversion App"
 	version 	= "1.0.0">
 
 	<name>Simple Temperature Conversion App</name>
@@ -23,7 +23,7 @@
 
 	<icon src="blurry.png" gap:role="default" />
 
-    <gap:splash src="thermo.png" />
+    <gap:splash src="icon.png" />
 
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
 	<feature name="http://api.phonegap.com/1.0/network"/>
