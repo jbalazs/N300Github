@@ -23,7 +23,7 @@
 
 	<icon src="blurry.png" gap:role="default" />
 
-    <gap:splash src="thermo.jpg" />
+    <gap:splash src="thermo.png" />
 
 	<feature name="http://api.phonegap.com/1.0/geolocation"/>
 	<feature name="http://api.phonegap.com/1.0/network"/>
